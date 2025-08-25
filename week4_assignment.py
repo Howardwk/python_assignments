@@ -2,7 +2,7 @@ import os
 
 def read_and_modify_file():
     # Prompt the user for the file path
-    file_path = input("Enter the filename to read: ")
+    file_path = input("Enter the absolute filepath of file to read: ")
 
     try:
         # Read and display the file content
@@ -27,4 +27,5 @@ def read_and_modify_file():
         print(f"❌ An unexpected error occurred: {e}")
 
 # Execute the function
+
 read_and_modify_file()
